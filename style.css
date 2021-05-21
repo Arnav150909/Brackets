@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .image1 {
@@ -46,7 +47,6 @@ h2 {
 }
 
 #bio {
-    font-size: 42px;
     text-align: center;
     padding: 50px;
 }
@@ -56,6 +56,7 @@ h2 {
     background-color: black;
     width: 70px;
     margin: 8px;
+    text-align: center;
 }
 
 p {
@@ -75,7 +76,7 @@ p {
 .menu {
     list-style: none;
     font-family: 'Pattaya', sans-serif;
-    position: absolute;
+    position: fixed;
     right: 30px;
     top: 10px;
     z-index: 10;
@@ -96,3 +97,14 @@ p {
 .links: hover {
     background-color: blue;
 }
+
+a {
+    text-decoration: none;
+}
+
+.article: hover {
+    color: pink;
+
+    html {
+        scroll-behavior: smooth;
+    }
