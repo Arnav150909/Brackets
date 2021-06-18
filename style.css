@@ -19,12 +19,12 @@ h1 {
 .bio {
     padding: 20px;
     font-size: 18px;
-    text-align: center;
 }
 
 img {
     border-radius: 50%;
     width: 200px;
+    margin-top: 70px;
 }
 
 #naruto {
@@ -41,7 +41,7 @@ img {
     color: black;
 }
 
-.links {
+.link {
     float: left;
     color: white;
     padding-top: 5px;
@@ -52,6 +52,6 @@ img {
     font-size: 20;
 }
 
-.links: hover {
+.link: hover {
     background-color: blue;
 }
