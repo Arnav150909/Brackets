@@ -52,6 +52,11 @@ img {
     font-size: 20;
 }
 
-.link: hover {
+.link:hover {
     background-color: blue;
+}
+
+#welcome{
+    padding: 70px;
+    text-align: center;
 }
